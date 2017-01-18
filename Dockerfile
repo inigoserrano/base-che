@@ -5,6 +5,6 @@ ADD settings.xml /home/user/.m2/settings.xml
 
 USER root
 
-RUN chown user:user /home/user/.m2/settings.xml
+RUN chown user:user -R /home/user/.m2
 
 USER user
